@@ -1,0 +1,15 @@
+{
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-coloringpages-production-e7599-authRole",
+      "UnauthRoleArn": "arn:aws:iam::982567987228:role/amplify-coloringpages-production-e7599-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::982567987228:role/amplify-coloringpages-production-e7599-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-coloringpages-production-e7599-deployment",
+      "UnauthRoleName": "amplify-coloringpages-production-e7599-unauthRole",
+      "StackName": "amplify-coloringpages-production-e7599",
+      "StackId": "arn:aws:cloudformation:eu-north-1:982567987228:stack/amplify-coloringpages-production-e7599/dc331c10-8cbd-11f0-a807-0600d7538783",
+      "AmplifyAppId": "d2ipdbanlkr425"
+    }
+  }
+}
