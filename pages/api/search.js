@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     const searchTerm = q.toLowerCase();
     const filteredPages = allPages.filter(page => 
       page.name.toLowerCase().includes(searchTerm) ||
-      page.categoryName.toLowerCase().includes(searchTerm)
+      page.category.toLowerCase().includes(searchTerm)
     );
     
     res.status(200).json(filteredPages);
@@ -22,4 +22,5 @@ export default async function handler(req, res) {
     console.error('Search error:', error);
     res.status(500).json({ error: 'Failed to search pages' });
   }
+
 }
